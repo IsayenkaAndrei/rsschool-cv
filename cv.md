@@ -12,16 +12,16 @@ I strive to learn new thing because I want to be happy.
 * HTML
 * CSS
 ## Code Example
-```
+```html
 <!DOCTYPE html>
-<html>
-<head>
+ <html>
+ <head>
 	<title>Stage0</title>
-</head>
-<body>
+ </head>
+ <body>
 	"Hello World!"
-</body>
-</html>
+ </body>
+ </html>
 
 ```
 ## Experience
