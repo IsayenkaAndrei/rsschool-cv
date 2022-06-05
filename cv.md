@@ -12,17 +12,6 @@ I strive to learn new thing because I want to be happy.
 * HTML
 * CSS
 ## Code Example
-```html
-<!DOCTYPE html>
- <html>
- <head>
-	<title>Stage0</title>
- </head>
- <body>
-	"Hello World!"
- </body>
- </html>
-```
 ## Experience
 Without work experience
 ## Education
