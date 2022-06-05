@@ -1,1 +1,1 @@
-CV документ - https://isayenkaandrei.github.io/rsschool-cv/cv
+https://isayenkaandrei.github.io/rsschool-cv/
