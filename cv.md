@@ -6,7 +6,7 @@
 * __GitHub:__ [IsayenkaAndrei](https://github.com/IsayenkaAndrei)
 * __Discord:__ Isayenka Andrei#1149
 ## About me
-I strive to learn new things because I want to be happy.
+I strive to learn new thing because I want to be happy.
 ## Skills
 * Git
 * HTML
@@ -16,7 +16,7 @@ I strive to learn new things because I want to be happy.
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Приветствие</title>
+	<title>Stage0</title>
 </head>
 <body>
 	"Hello World!"
