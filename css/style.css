@@ -34,7 +34,7 @@
 
 /* list */
 .nav {
-    height: 100%;
+    height: 50px;
 
     font-family: 'Prata', Times, serif;
 }
@@ -72,6 +72,20 @@
 
 /* list end */
 
+/* topic */
+.header-section {
+    display: flex;
+    flex-direction: row;
+
+    width: 90%
+}
+
+div {
+    border: 1px solid black;
+}
+img {
+    width: 104px;
+}
 
 .main {
     display: flex;
