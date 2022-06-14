@@ -13,7 +13,7 @@
     padding: 0px;
     width: 75%;
   /* область обзора браузера */
-    min-height: 150vh;
+    /* min-height: 200vh; */
 
 
     font-family: 'Prata', Times, serif;
@@ -26,18 +26,15 @@
     margin: 0px auto;
     min-width: 600px;
     width: 100%;
-    height: 50px;
-
-    background-color: #FBF2E4;
-    border-bottom: 2px ridge rgb(202, 109, 24);
 }
 
 
 /* list */
 .nav {
     height: 50px;
-
-
+    
+    border-bottom: 2px ridge rgb(202, 109, 24);
+    background-color: #FBF2E4;
 }
  
 
@@ -71,6 +68,7 @@
     transition: .5s;
 }
 
+
 /* list end */
 
 /* topic */
@@ -82,41 +80,69 @@
 
     width: 95%;
     height: 200px;
-    margin:0px auto;
-    padding-top: 36px;
+    margin: 0px auto;
+    padding: 18px;
 
 
     background-color: #FBF2E4;
 }
 
+.header-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
-img {
-    width: 104px;
+.header-image {
+    width: 130px;
 
     border-radius: 50%;
 }
 
+#contacts {
+    padding: 0px 8px;
+}
 
+#contacts:target {
+    background-color: rgba(202, 109, 24, 0.2);
+    transition: 1s;
+
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.header-contacts {
+    padding: 0px;
+    list-style: none;
+}
 
 
 .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    min-width: 500px;
-    width: 95%;
-    margin: 40% auto;
+    
+    min-width: 600px;
+    width: 100%;
+    margin: 60px auto;
+    padding: 0px 25%;
 
 }
 
 .main-section {
     width: 50%;
 
-    margin: 10px 0px;
+    margin: 20px 0px;
     padding: 10px;
     
+    border-right: 1px solid black;
     border-left: 1px solid black;
+}
+
+.main-section:target {
+    background-color: rgba(202, 109, 24, 0.2);
+    transition: 1s;
 }
 
 .main-h2 {
@@ -136,6 +162,49 @@ img {
     font-size: 14px;
     line-height: 18px;
 }
+
+
 .footer {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* box-sizing: border-box; */
+
+    min-width: 600px;
+    width: 100%;
+    height: 50px;
+
+    background-color: #FBF2E4;
+    border-top: 2px ridge rgb(202, 109, 24);
 }
+
+.footer-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.footer-image {
+    height: 32px;
+}
+
+.footer-elements {
+    color:#222222;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    background-color: rgba(202, 109, 24, 0.5);
+
+    transition: .5s;
+}
+
+/* .footer-image-text {
+    box-sizing: content-box;
+    margin-left: px;
+} */
+
